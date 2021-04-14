@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>s=</title>
+</head>
+<body>
+    <form id="register_student">
+        <input type="hidden" name="action" value="register">
+        <table>
+            <tr>
+                <td>
+                <label for="username">用户名</label>
+                </td>
+                <td>
+                    <input type="text" id="username" name="username" placeholder="请输入账号">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">密码</label>
+                </td>
+                <td>
+                    <input type="text" id="password" name="password" placeholder="请输入密码">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="stuNum">学号</label>
+                </td>
+                <td>
+                    <input type="text" id="stuNum" name="stuNum" placeholder="请输入您的学号">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="stuName">姓名</label>
+                </td>
+                <td>
+                    <input type="text" id="stuName" name="stuName" placeholder="请输入您的姓名">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    专业
+                </td>
+            </tr>
+        </table>
+
+        <select name="major">
+            <option value="计算机">计算机</option>
+            <option value="生物制药">生物制药</option>
+            <option value="轻工与化工">轻工与化工</option>
+        </select>
+        <br/>
+        <input id="submit" type="submit" name="submit" value="注册">
+    </form>
+</body>
+</html>
